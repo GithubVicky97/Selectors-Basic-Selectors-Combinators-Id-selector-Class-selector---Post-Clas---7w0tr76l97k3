@@ -21,6 +21,11 @@ body{
     grid-template-columns: 300px 700px;  
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
+ .main-content .left-section{
+            grid-column: span 1;
+            font-size: large;
+            font-weight: 500;
+        }
 .main-content .left_content{
    
     background: #003147;
@@ -193,7 +198,11 @@ body{
 
 /* ========================================== */
 
-
+ .main-content .right-section{
+     grid-column: span 1 / span 2;
+     font-size: large;
+     font-weight: 500;
+ }
 .main-content .right_content{
     padding: 2rem 3rem 2rem 3rem;
 }
@@ -344,6 +353,11 @@ body{
             list-style: none;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
+         .main-content .right-section{
+            grid-column: span 1;
+            font-size: large;
+            font-weight: 500;
+        }
         .main-content .left_content{
    
             background: #003147;
@@ -445,7 +459,11 @@ body{
             height: 4px;
         }
         
-        
+         .main-content .right-section{
+            grid-column: span 1 / span 2;
+            font-size: large;
+            font-weight: 500;
+        }
         .main-content .right_content{
             padding: 2rem 3rem 2rem 3rem;
         }
